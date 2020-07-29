@@ -52,10 +52,82 @@ nav button{
 }
 .article{
   padding:10px;
-  border:1px solid:#00db39;
+  border:1px solid #00db39;
   position:relative;
   padding-bottom:40px;
 }
 .article h2{
   font-size:1.2em
+}
+.article .author{
+  padding:10px;
+  background-color:#1118ff;
+  position:absolute;
+  right:0;
+  bottom:0;
+  color:#080611;
+  margin:0
+
+
+}
+
+.article_detail .article{
+  padding:0;
+}
+.article_detail .article img{
+  max-width:100%;
+}
+.article_detail .article h2{
+  text-align:center;
+  font-size:2em;
+}
+.article_detail .article p{
+  text-align:center
+}
+.site-form{
+  margin-top:20px;
+  border:1px solid #1118ff;
+  padding:20px;
+  border-radius:6px;
+}
+.site-form input,.site-form textarea{
+  display:block;
+  margin:3px 0 10px 0 ;
+
+
+}
+a.highlight{
+  border:1px solid #1118ff;
+  padding:5px;
+  border-radius:6px;
+}
+.helptext , .helptext ul{
+  margin:0 auto 20px;
+  color:#ffdb006e;
+  font-size:1.1em;
+  display:block;
+
+
+}
+.errorlist li{
+  padding:10xp;
+  list-style-type:none;
+  border:1px solid #ff5722;
+  color:#ff5722;
+  margin:10px 0;
+
+
+}
+.errorlist{
+  padding:0
+}
+.site-form input[type="submit"]{
+  border:0;
+  color: #fff;
+  font-size:1.2em;
+  background-color: #1118ff;
+  border-radius:4px;
+  margin:10px 0
+
+
 }
