@@ -6,6 +6,6 @@ const slugify = (val)=>{
   .replace(/&/g,'-and-')
   .replace(/[\s\w-]+/g,'-')
 };
-titleInput.addEventListener('keyup',(e)=>{
-  slugInput.setAttribute('value',slugify(titleInput.value));
+ titleInput.addEventListener('keyup',(e)=>{
+  slugInput.setAttribute('value',slugify(tit.value));
 });
